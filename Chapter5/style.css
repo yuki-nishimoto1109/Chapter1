@@ -1,3 +1,4 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
 * {
   margin: 0;
   padding: 0;
@@ -5,17 +6,22 @@
 }
 
 header {
-  width: 100%;
+  width: 90%; /* 横幅90% */
   padding: 20px 0;
+  margin: 0 auto;
   text-align: center;
+}
+
+nav{
+  list-style: none;
 }
 
 .nav-list {
   text-align: center;
   padding: 15px 0;
   margin: 0 auto;
-  border-bottom: 1px solid #848282;
-  border-top: 1px solid #848282;
+  border-top-style: groove;
+  border-bottom-style: groove
 }
 
 .nav-list-item {
@@ -26,82 +32,107 @@ header {
 
 .main {
   width: 800px;
-  margin: 50px auto;
-  display: flex;
-  flex-wrap: wrap;
+  height: 700px;
+  margin: 0 auto;
+  padding: 50px 0;
 }
 
-.box1 {
+.box1{
+  width: 800px;
+  height: 200px;
+  display: flex; /* Flexboxの利用 */
+  justify-content: center; /* 子要素の横並び・中央寄せ */
+  margin: 0 auto; /* 中央寄せ（左右に余白がないとできない） */
+}
+
+.box1-1{
   width: 200px;
   height: 200px;
   background-color: #e6ffe9;
 }
 
-.box2 {
+.box1-2{
   width: 200px;
   height: 200px;
   background-color: #cbffd3;
 }
 
-.box3 {
+.box1-3{
   width: 200px;
   height: 200px;
   background-color: #aeffbd;
 }
 
-.box4 {
+.box1-4{
   width: 200px;
   height: 200px;
   background-color: #93ffab;
 }
 
-.box5 {
+.box2{
+  width: 800px;
+  height: 200px;
+  display: flex; /* Flexboxの利用 */
+  justify-content: center; /* 子要素の横並び・中央寄せ */
+  margin: 0 auto; /* 中央寄せ（左右に余白がないとできない） */
+}
+
+.box2-1{
   width: 200px;
   height: 200px;
   background-color: #f3ffd8;
 }
 
-.box6 {
+.box2-2{
   width: 200px;
   height: 200px;
   background-color: #edffbe;
 }
 
-.box7 {
+.box2-3{
   width: 200px;
   height: 200px;
   background-color: #e9ffa5;
 }
 
-.box8 {
+.box2-4{
   width: 200px;
   height: 200px;
   background-color: #e4ff8d;
 }
 
-.box9 {
+.box3{
+  width: 800px;
+  height: 200px;
+  display: flex; /* Flexboxの利用 */
+  justify-content: center; /* 子要素の横並び・中央寄せ */
+  margin: 0 auto; /* 中央寄せ（左右に余白がないとできない） */
+}
+
+.box3-1{
   width: 200px;
   height: 200px;
   background-color: #d9e5ff;
 }
 
-.box10 {
+.box3-2{
   width: 200px;
   height: 200px;
   background-color: #bad3ff;
 }
 
-.box11 {
+.box3-3{
   width: 200px;
   height: 200px;
   background-color: #a4c6ff;
 }
 
-.box12 {
+.box3-4{
   width: 200px;
   height: 200px;
   background-color: #8eb8ff;
 }
+
 
 footer {
   width: 100%;
