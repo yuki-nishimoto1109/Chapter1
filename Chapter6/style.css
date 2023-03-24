@@ -1,0 +1,29 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+div{
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.box1{
+  background-image: url(img/box1.jpg);
+}
+
+.box2{
+  background-image: url(img/box2.jpg);
+}
+
+.box3{
+  background-image: url(img/box3.jpg);
+}
+
+.box4{
+  background-image: url(img/box4.jpg);
+}
