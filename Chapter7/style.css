@@ -1,0 +1,41 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  height: 400px;
+  background-image: url(img/mv.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.TITLE{
+  padding: 20px;
+  color: gray;
+}
+
+.contents-box{
+  width: 840px;
+  margin: 50px auto;
+}
+
+.contents{
+  border-bottom: 1px solid #D1D1D1;
+  padding: 30px 0;
+}
+
+.contents-image{
+  margin-bottom: 10px;
+}
+
+.contents-text{
+  color: gray;
+  line-height: 2;
+}
+
+.contents-url{
+  color: gray;
+}
