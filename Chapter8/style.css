@@ -1,0 +1,44 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.list {
+  width: 960px;
+  padding: 50px 0;
+  margin: 0 auto;
+  list-style: none;
+}
+
+.list > li {
+  padding: 20px 0px 20px 20px;
+}
+
+.list :nth-child(odd){
+  background-color: gray;
+}
+
+.box{
+  display: flex;
+  flex-wrap: wrap;
+  width: 960px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+}
+
+.box > div{
+  width: 30%;
+  height: 200px;
+  background-color: yellow;
+  margin-bottom: 40px;
+}
+
+.box :not(:nth-child(3n)){
+  margin-right: 5%;
+}
+
+.box :nth-child(4n-3){
+  background-color: orange;
+}
